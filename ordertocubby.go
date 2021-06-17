@@ -1,4 +1,4 @@
-package main
+package ordertocubby
 
 import (
 	"hash/fnv"
