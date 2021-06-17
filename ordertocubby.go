@@ -14,7 +14,7 @@ func Map(orderID string, times, cubbiesCount uint32) string {
 		times--
 	}
 
-	return strconv.Itoa(int(result % cubbiesCount))
+	return strconv.Itoa(int(result%cubbiesCount) + 1)
 }
 
 func hash(s string) uint32 {
